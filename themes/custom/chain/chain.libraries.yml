@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      assets/css/fontawesome.css: {}
+      assets/css/animated.css: {}
+      assets/css/owl.css: {}
+      assets/css/templatemo-chain-app-dev.css: {}
+
+global-js:
+  js:
+    vendor/jquery/jquery.min.js: {}
+    vendor/bootstrap/js/bootstrap.bundle.min.js: {}
+    assets/js/animation.js: {}
+    assets/js/custom.js: {}
+    assets/js/imagesloaded.js: {}
+    assets/js/isotope.js: {}
+    assets/js/owl-carousel.js: {}
+    assets/js/popup.js: {}
+    assets/js/tabs.js: {}

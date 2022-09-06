@@ -1,0 +1,21 @@
+name: chain
+description: "A Custom theme based on a chain app."
+type: theme
+core: 8.x
+
+regions:
+  navigation: "Navigation"
+  hero: "Hero"
+  service: "Service"
+  about: "About"
+  content: "Content"
+  princing: "Pricing"
+  newsletter: "News Letter"
+  footer: "Footer"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
+
+libraries:
+  - chain/global-styling
+  - chain/global-js
+  - chain/assets/fonts
