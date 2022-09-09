@@ -1,0 +1,46 @@
+<div id="services" class="services section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div
+          class="section-heading wow fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay="0.5s"
+        >
+          <h4>Amazing <em>Services &amp; Features</em> for you</h4>
+          <img src="assets/images/heading-line-dec.png" alt="" />
+          <p>
+            If you need the greatest collection of HTML templates for your
+            business, please visit
+            <a rel="nofollow" href="https://www.toocss.com/" target="_blank"
+              >TooCSS</a
+            >
+            Blog. If you need to have a contact form PHP script, go to
+            <a href="https://templatemo.com/contact" target="_parent"
+              >our contact page</a
+            >
+            for more information.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% for row in rows %}
+
+      <div class="col-lg-3">
+        <div class="service-item {{ row["content"]["#row"]._entity.field_service_icon.value }}-service">
+          <div class="icon"></div>
+          <h4>{{ row["content"]["#row"]._entity.field_title.value }}</h4>
+          <p>{{ row["content"]["#row"]._entity.body.value | raw }}</p>
+          <div class="text-button">
+            <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
